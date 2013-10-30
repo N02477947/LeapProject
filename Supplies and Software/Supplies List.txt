@@ -1,0 +1,10 @@
+List of Supplies (so far)
+
+- One (1) Leap Motion controller
+- One (1) Raspberry Pi Revision B
+- One (1) Breadboard
+- One (1) USB wireless internet dongle
+- One (1) Keyboard
+- One (1) Mouse
+- One (1) SD card (2GB or above)
+- One (1) 5v LED with built-in resistor
