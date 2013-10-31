@@ -1,0 +1,17 @@
+In order to make this project truly 'headless' one must first be able to access the command line immeadiately following startup.  We don't want to have to log in first.
+
+To set up auto-login in Raspbian: 
+(from http://raspisimon.no-ip.org/rpi_autologin.php)
+
+Auto Login: 
+1) Edit /etc/inittab 
+	sudo nano /etc/inittab
+2) Scroll down to: 
+	1:2345:respawn:/sbin/getty 115200 tty1
+3) Change to 
+	#1:2345:respawn:/sbin/getty 115200 tty1
+4) Under that line add:
+	1:2345:respawn:/bin/login -f pi tty1 </dev/tty1 >/dev/tty1 2>&1
+5) Save the file and exit, (ctrl + o to save and ctrl + x to exit) 
+
+Upon restart, the Pi will boot automatically to the Command line.
