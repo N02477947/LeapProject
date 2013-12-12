@@ -1,3 +1,2 @@
-cd wiringPi/examples
-sudo ./blinkCopy
+sudo ./rblink
 
