@@ -11,3 +11,5 @@ With the program suite installed on the Pi, it is now time to setup the Java env
 - When building the datapath of the project, you must also add the "jsch-0.1.50.jar" file.  This is the JSch module and is necessary to the project.
 
 - When the project has been set up, add the "FinalDraft.java" file to the source file of the project.  This is the final working copy of the program.
+
+- Try running the program!
