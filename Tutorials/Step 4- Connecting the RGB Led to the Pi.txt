@@ -1,0 +1,12 @@
+Step four is to properly connect the RGB LED to the Raspberry Pi's GPIO pins.
+
+- Follow the GPIO pinout chart in the "Charts and Diagrams" section of the repository to find the first three wiringPi pins
+(RPi pins 11, 12, and 13 respectively.) It is also necessary to locate the Raspberry Pi's GROUND pin.  Because the RGB LED is 'common cathode', one lead from the LED needs to be grounded.  This ground is shared between the diodes in the LED.
+
+- Connect a female wire connector to each pin.  Connect these wires to your breadboard. 
+
+- It's now time to connect your resistors.  The wire to be connected to the red diode should be connected to a 330 Ohm resistor.  The wire to be connected to the green diode should be connected to a 150 ohm resistor. Finally, the wire to be connected to the blue diode should be connected to a 100 Ohm resistor.
+
+- Follow the RGB LED pinout in the "Charts and Diagrams" section to connect the LED to the breadboard.  Follow the diagram carefully in order to ensure proper connections. 
+
+- Once the LED has been properly set up, try the programs to see the different colors the LED is capable of.

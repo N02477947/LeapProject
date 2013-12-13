@@ -8,3 +8,4 @@ List of Supplies (so far)
 - One (1) Mouse
 - One (1) SD card (2GB or above)
 - One (1) 5v LED with built-in resistor
+- One (1) Common Cathode 5mm RGB controllable LED

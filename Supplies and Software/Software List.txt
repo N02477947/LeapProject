@@ -2,4 +2,5 @@ Software Used in this Project:
 - Eclipse IDE for Java Developers
 - Leap Motion Software Development Kit
 - Raspbian Linux distro for Raspberry Pi
-- WiringPi GPIO library for Raspberry Pi
+- WiringPi GPIO library for Raspberry Pi (http://wiringpi.com/)
+- JSch Java Secure Channel Module (http://www.jcraft.com/jsch/)

@@ -1,0 +1,11 @@
+The next step is to download and compile the necessary programs/scripts for the Raspberry Pi
+
+- Download RGBPWM.c, RGBblink.c and blinkScript.sh from the "Scripts and Programs" section of the repository to the wiringPi folder on your Pi.
+
+- Compile RGBPWM.c using the following command "cc -o rgbpwm RGBPWM.c -lwiringPi -lpthread"
+
+- Compile RGBblink.c using the following command ""cc -o rblink RGBblink.c -lwiringPi"
+
+- Run each program to test that they will work using the command "sudo ./rgbpwm" or "sudo ./rblink".
+
+- If they both work, try running blinkScript.sh.  This script runs the RGBblink program automatically. This script should be added to the bottom of the .bashrc file so that it runs automatically on startup and ssh-connect.

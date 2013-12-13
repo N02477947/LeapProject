@@ -1,7 +1,0 @@
-The next step is to download and compile the rgbpwm.c file
-
-- Download rgbpwm.c from the "Scripts and Programs" section of the repository to the wiringPi folder on your Pi.
-
-- Compile the program using the following command "cc -o rgbpwm RGBPWM.c -lwiringPi -lpthread"
-
-- Run the program to test it out using the command "sudo ./rgbpwm"! 
