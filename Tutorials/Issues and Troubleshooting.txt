@@ -1,0 +1,19 @@
+What follows is a list of issues I came across while working on my project.
+
+1.  When working with the sample program supplied by the Leap Motion, I was getting bombarded by data output. When attempting to minimize the code for my purposes I was getting hundreds of lines of data.  This was because the Leap 
+output data on every single frame it picked up.  I wanted to send a single command every time a gesture was picked up.  I worked for days trying to come up with a workaround to this problem.  I eventually landed on creating
+a system of counters, one for each gesture type.  When a gesture was recognized, the counter specific to that gesture would be incremented.  I then set up a condition statement where only if the value of a gesture was equal to 
+1 would the command be sent.  All other data frames would be ignored and I would get only one line of data.
+
+2.  When working with the RGB LED, it is important to understand that there are two types of said LED: common cathode and common anode.  Common anode RGB LEDs need to be connected to 5v where common cathode LEDs need to be
+connected to ground.  I was working with a tutorial that utilized common anode RGB LEDs but I was actually using common cathode.  It was a very frustrating few hours before I realized my mistake.  Correcting it was very simple.
+
+3.  Static IP Addresses are only good for the network you set them up on.  If you move your Pi to another network, the static IP address will no longer be valid.  Keep this in mind if you wish to assign a static IP to a Pi 
+that connects to multiple networks.
+
+4.  Dimming the LED was a particular nuisance.  There are technically three diodes in an RGB LED, the combination of which give the ability to switch colors.  That means that each specific color combination needed it's own 
+brightness control.  This forced me to set up new variables pertaining to which color was previously chosen in order to keep track of which diodes needed to be dimmed.  
+
+5. Finally, and most importantly, when setting up the Java environment, you must select the specific libraries the LeapJava.jar file utilizes.  Often (but maddeningly, not always) I'd try to run the sample program I'd receive an 
+error stating "missing LeapJava."  This has to do with how the buildpath of the program is set up. When selecting the libraries LeapJava has access to, you must choose the library specific to your system. If you're on a 32-bit
+system, you must choose the x86 folder in the Leap SDK.  If you're on a 64-bit system, you must choose the x64 folder. As previously stated, this problem only presented itself some of the time, making it that much more frustrating. 
