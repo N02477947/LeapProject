@@ -1,0 +1,13 @@
+With the program suite installed on the Pi, it is now time to setup the Java environment on the Pi.
+
+- Ensure that you have a Java Runtime Environment installed.
+
+- If not, download and install the latest JRE (http://www.oracle.com/technetwork/java/javase/downloads/java-se-jre-7-download-432155.html)
+
+- Download Eclipse JAVA IDE.
+
+- To work with the Leap Motion and my program with Eclipse, follow the "Leap Sample in Java" document in the "Tutorials" section of the repo.
+
+- When building the datapath of the project, you must also add the "jsch-0.1.50.jar" file.  This is the JSch module and is necessary to the project.
+
+- When the project has been set up, add the "FinalDraft.java" file to the source file of the project.  This is the final working copy of the program.
