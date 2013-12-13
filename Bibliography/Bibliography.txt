@@ -1,0 +1,34 @@
+What follows is a list of resources I used to help complete my project.
+
+1. wiringPi
+	http://wiringpi.com/
+	Gordons Projects	
+	Wiring Pi	2013
+
+2. Setting up Raspberry Pi Auto Login on raspbian
+	raspisimon.no-ip.org/rpi_autologin.php
+	RaspiSimon 2013
+	
+3. Control Stuff with your Raspberry Pi (GPIO)
+	www.instructables.com/id/Control-Stuff-with-your-Raspberry-Pi-GPIO/?ALLSTEPS
+	Instructables
+	User: Daniel "drcuzon"
+
+4. boot - Execute script on start-up - Raspberry Pi Stack Exchange
+	raspberrypi.stackexchange.com/questions/8734/execute-script-on-start-up
+	StackExchange
+	User: cyb0rg 2013
+
+5. Simple Guide to the RPi GPIO Header and Pins | Raspberry Pi Spy
+	www.raspberrypi-spy.co.uk/2012/06/simple-guide-to-the-rpi-gpio-header-and-pins/
+	Raspberry Pi Spy
+	User: Matt 2012
+
+6. ModMyPi | Tutorial - How to give your Raspberry Pi a Static IP Address
+	https://www.modmypi.com/blog/tutorial-how-to-give-your-raspberry-pi-a-static-ip-address
+	MODMYPI
+	User: Unknown 2013
+
+7. JSch - Examples
+	http://www.jcraft.com/jsch/examples/
+	Jcract, Inc. 2012
